@@ -1,6 +1,3 @@
-
-
-
   <div class="card-trip">
   <% @produtos.each do |produto| %>
     <% if produto.photo.attached? %>
@@ -16,7 +13,7 @@
       </div>
          <h2 class="card-trip-pricing">
                 <%= produto.valor %></h2>
-          <%= image_tag "logo.jpg", alt: "Le Wagon", class:"card-trip-user avatar-bordered"%>
+          <%= image_tag "ga.png", alt: "Le Wagon", class:"card-trip-user avatar-bordered"%>
     </div>
   <% end %>
 
